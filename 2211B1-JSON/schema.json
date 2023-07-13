@@ -1,0 +1,132 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "array",
+    "items": [
+      {
+        "type": "object",
+        "properties": {
+          "productName": {
+            "type": "string"
+          },
+          "productPrice": {
+            "type": "integer"
+          },
+          "productRattings": {
+            "type": "number"
+          },
+          "productColor": {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "string"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          }
+        },
+        "required": [
+          "productName",
+          "productPrice",
+          "productRattings",
+          "productColor"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "productName": {
+            "type": "string"
+          },
+          "productPrice": {
+            "type": "integer"
+          },
+          "productRattings": {
+            "type": "number"
+          },
+          "productColor": {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "string"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "productAvailability": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "productName",
+          "productPrice",
+          "productRattings",
+          "productColor",
+          "productAvailability"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "productName": {
+            "type": "string"
+          },
+          "productPrice": {
+            "type": "integer"
+          },
+          "productRattings": {
+            "type": "number"
+          },
+          "productColor": {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "string"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "productAvailability": {
+            "type": "object",
+            "properties": {
+              "karachi": {
+                "type": "string"
+              },
+              "Lahore": {
+                "type": "string"
+              },
+              "Abbotabad": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "karachi",
+              "Lahore",
+              "Abbotabad"
+            ]
+          }
+        },
+        "required": [
+          "productName",
+          "productPrice",
+          "productRattings",
+          "productColor",
+          "productAvailability"
+        ]
+      }
+    ]
+  }

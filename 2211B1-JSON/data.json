@@ -1,0 +1,27 @@
+[
+    {
+        "productName":"Keyboard",
+        "productPrice": 5600,
+        "productRattings": 4.5,
+        "productColor": ["Red", "Green", "Black"]
+    },
+    {
+        "productName":"Mouse",
+        "productPrice": 4300,
+        "productRattings": 3.2,
+        "productColor": ["White", "Blue", "Black"],
+        "productAvailability": true
+    },
+    {
+        "productName":"Keyboard",
+        "productPrice": 5600,
+        "productRattings": 4.5,
+        "productColor": ["Red", "Green", "Black"],
+        "productAvailability": {
+            "karachi": "North Nazimabad",
+            "Lahore": "South",
+            "Abbotabad": "East"
+        }
+    }
+
+]
